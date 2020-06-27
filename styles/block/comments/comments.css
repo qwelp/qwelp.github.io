@@ -1,0 +1,19 @@
+@import "__items/comments__items.css";
+@import "__title/comments__title.css";
+
+.comments {
+  max-width: 1184px;
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 1280px) {
+  .comments {
+    margin: 0 24px 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments {
+    margin: 0 16px 60px;
+  }
+}

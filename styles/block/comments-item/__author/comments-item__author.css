@@ -1,0 +1,19 @@
+.comments-item__author {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .comments-item__author {
+    order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments-item__author {
+    margin-bottom: 15px;
+  }
+}

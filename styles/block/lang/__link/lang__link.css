@@ -1,0 +1,21 @@
+.lang__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: right;
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+
+.lang__link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .lang__link {
+    font-size: 18px;
+    line-height: 96.82%;
+  }
+}

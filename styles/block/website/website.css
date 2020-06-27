@@ -1,0 +1,9 @@
+@import "__title/website__title.css";
+@import "__url/website__url.css";
+@import "__place/_places/website_place_barentsburg.css";
+
+@media (max-width: 768px) {
+  .website {
+    display: none;
+  }
+}

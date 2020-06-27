@@ -1,0 +1,16 @@
+@import "__title/places-item__title.css";
+@import "__wrap/places-item__wrap.css";
+@import "__img/places-item__img.css";
+@import "__header/places-item__header.css";
+@import "__cell/places-item__cell.css";
+@import "__paragraph/places-item__paragraph.css";
+
+.places-item:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1024px) {
+  .places-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

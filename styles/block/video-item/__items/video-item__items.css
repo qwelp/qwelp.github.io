@@ -1,0 +1,15 @@
+.video-item__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  margin-top: 65px;
+}
+
+@media (max-width: 768px) {
+  .video-item__items {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 8px;
+    margin-top: 0;
+  }
+}

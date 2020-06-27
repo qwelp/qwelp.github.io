@@ -1,0 +1,19 @@
+@import "__title/video__title.css";
+@import "__subtitle/video__subtitle.css";
+
+.video {
+  max-width: 1184px;
+  margin: 0 auto 110px;
+}
+
+@media (max-width: 1280px) {
+  .video {
+    margin: 0 24px 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    margin: 0 16px 60px;
+  }
+}

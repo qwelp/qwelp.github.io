@@ -1,0 +1,10 @@
+.comments__subtitle {
+
+}
+
+@media (max-width: 768px) {
+  .comments__subtitle {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
