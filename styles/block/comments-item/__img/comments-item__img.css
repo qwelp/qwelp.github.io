@@ -1,0 +1,14 @@
+.comments-item__img {
+  width: 97px;
+  height: 97px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 35px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .comments-item__img {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+@import "_subtitle/comments-item_subtitle.css";
+@import "_title/comments-item_title.css";
+@import "__img/comments-item__img.css";
+@import "__blockquote/comments-item__blockquote.css";
+@import "__quote/comments-item__quote.css";
+@import "__author/comments-item__author.css";
+
+.comments-item {
+
+}

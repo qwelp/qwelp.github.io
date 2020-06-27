@@ -1,0 +1,25 @@
+@import "../vendor/normalize.css";
+@import "../../fonts/inter.css";
+@import "../block/header/header.css";
+@import "../block/section-title/section-title.css";
+@import "../block/section-subtitle/section-subtitle.css";
+@import "../block/footer/footer.css";
+@import "../block/section-title-middle/section-title-middle.css";
+@import "../block/visually-hidden/visually-hidden.css";
+@import "../block/preview/preview.css";
+@import "../block/description/description.css";
+@import "../block/photo/photo.css";
+@import "../block/places/places.css";
+@import "../block/video/video.css";
+@import "../block/video-item/video-item.css";
+@import "../block/comments/comments.css";
+@import "../block/comments-item/comments-item.css";
+@import "../block/cover/cover.css";
+@import "../block/website/website.css";
+@import "../block/places-item/places-item.css";
+
+html, body {
+  font-family: 'Inter', 'Arial', sans-serif;
+  background: #2A2C2F;
+  font-size: 16px;
+}

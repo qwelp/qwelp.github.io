@@ -1,0 +1,18 @@
+@import "_size/_m/section-title_size_m.css";
+@import "_size/_l/section-title_size_l.css";
+
+.section-title {
+  font-style: normal;
+  font-weight: 900;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    line-height: 44px;
+    margin: 15px auto;
+  }
+}

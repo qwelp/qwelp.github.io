@@ -1,0 +1,14 @@
+.comments-item__quote {
+  margin: 0 0 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .comments-item__quote {
+    order: 2;
+  }
+}

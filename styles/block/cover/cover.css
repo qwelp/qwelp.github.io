@@ -1,0 +1,15 @@
+@import "__subtitle/cover__subtitle.css";
+@import "__title/cover__title.css";
+@import "__link/cover__link.css";
+
+.cover {
+  position: relative;
+  max-width: 1184px;
+  margin: 0 auto 80px;
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 0 auto 60px;
+  }
+}

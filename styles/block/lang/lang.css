@@ -1,0 +1,15 @@
+@import "__item/lang__item.css";
+@import "__link/lang__link.css";
+@import "__link/_active/lang__link_active.css";
+
+.lang {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .lang {
+    margin-top: 10px;
+  }
+}

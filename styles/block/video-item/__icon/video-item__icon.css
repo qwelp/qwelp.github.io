@@ -1,0 +1,10 @@
+.video-item__icon {
+  width: 41px;
+  height: 41px;
+  background-image: url("../../../../images/video/__icon_play.svg");
+  background-repeat: no-repeat;
+  display: block;
+  transition: opacity 350ms;
+  position: relative;
+  z-index: 10;
+}

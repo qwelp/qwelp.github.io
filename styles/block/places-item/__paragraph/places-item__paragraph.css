@@ -1,0 +1,20 @@
+.places-item__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.places-item__paragraph:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1024px) {
+  .places-item__paragraph {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+

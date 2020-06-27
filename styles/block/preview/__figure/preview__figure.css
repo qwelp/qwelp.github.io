@@ -1,0 +1,19 @@
+.preview__figure {
+  max-width: 984px;
+  height: 554px;
+  margin: 75px 0 0;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .preview__figure {
+    margin: 75px 48px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .preview__figure {
+    margin: 30px 0 0;
+    height: auto;
+  }
+}

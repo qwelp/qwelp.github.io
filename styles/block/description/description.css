@@ -1,0 +1,23 @@
+@import "__item/description__item.css";
+@import "__item/_info/description__item_info.css";
+@import "__bold/description__bold.css";
+@import "__items/description__items.css";
+@import "__paragraph/description__paragraph.css";
+@import "__title/description__title.css";
+
+.description {
+  max-width: 985px;
+  margin: 0 auto 90px;
+}
+
+@media (max-width: 1024px) {
+  .description {
+    margin: 0 24px 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    margin: 0 16px 60px;
+  }
+}

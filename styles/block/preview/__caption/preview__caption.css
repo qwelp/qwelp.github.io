@@ -1,0 +1,13 @@
+.preview__caption {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .preview__caption {
+    margin: 0 15px;
+  }
+}

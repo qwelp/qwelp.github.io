@@ -1,0 +1,11 @@
+.description__item_info {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .description__item_info {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

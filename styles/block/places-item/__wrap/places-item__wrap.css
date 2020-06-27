@@ -1,0 +1,31 @@
+.places-item__wrap {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .places-item__wrap {
+    margin-left: 24px;
+    margin-right: 25px;
+    grid-column-gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places-item__wrap {
+    margin-left: 16px;
+    margin-right: 16px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .places-item__wrap {
+    grid-template-columns: 1fr;
+
+
+  }
+}
+

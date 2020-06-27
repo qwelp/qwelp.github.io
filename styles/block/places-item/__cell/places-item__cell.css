@@ -1,0 +1,9 @@
+.places-item__cell {
+
+}
+
+@media (max-width: 1024px) {
+  .places-item__cell {
+    margin: 0;
+  }
+}

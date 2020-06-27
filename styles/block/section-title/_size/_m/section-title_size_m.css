@@ -1,0 +1,10 @@
+.section-title_size_m {
+  font-size: 72px;
+}
+
+@media (max-width: 768px) {
+  .section-title_size_m {
+    font-size: 40px;
+  }
+}
+

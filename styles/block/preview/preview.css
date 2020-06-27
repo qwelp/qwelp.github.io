@@ -1,0 +1,16 @@
+@import "__figure/preview__figure.css";
+@import "__img/preview__img.css";
+@import "__caption/preview__caption.css";
+@import "__title/preview__title.css";
+@import "__subtitle/preview__subtitle.css";
+
+.preview {
+  max-width: 985px;
+  margin: 0 auto 100px;
+}
+
+@media (max-width: 768px) {
+  .preview {
+    margin-bottom: 60px;
+  }
+}

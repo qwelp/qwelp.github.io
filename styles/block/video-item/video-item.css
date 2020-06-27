@@ -1,0 +1,64 @@
+@import "__title/video-item__title.css";
+@import "__items/video-item__items.css";
+@import "__subtitle/video__subtitle.css";
+@import "video-item__duration/video-item__duration.css";
+@import "__item/_color-of-kamchatka/video-item_color-of-kamchatka.css";
+@import "__item/_observatory/video-item_observatory.css";
+@import "__icon/video-item__icon.css";
+
+.video-item {
+  border-radius: 6px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 583px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-decoration: none;
+  padding: 30px;
+
+}
+
+.video-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 350ms;
+  opacity: .5;
+}
+
+.video-item:hover:before {
+  opacity: 1;
+}
+
+@media (max-width: 1280px) {
+  .video-item {
+    height: 288px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .video-item {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-item {
+    max-width: 100%;
+    padding: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video-item {
+    height: 192px;
+  }
+}

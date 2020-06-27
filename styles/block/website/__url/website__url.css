@@ -1,0 +1,12 @@
+.website__url {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.website__url:hover {
+  text-decoration: none;
+}
